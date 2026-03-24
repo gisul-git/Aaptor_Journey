@@ -44,7 +44,7 @@ const statCards = [
 ];
 
 // Custom dot — glowing on last point
-const CustomDot = (props: any) => {
+const CustomDot = (props: { cx?: number; cy?: number; index?: number }) => {
   const { cx, cy, index } = props;
   if (index !== timelineData.length - 1) {
     return <circle cx={cx} cy={cy} r={3} fill="#0d7a45" />;

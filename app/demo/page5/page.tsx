@@ -5,7 +5,7 @@ import { GitCommit, BookOpen, Link2, MessageSquare, CheckCircle2, ExternalLink }
 
 // --- GitHub heatmap data (12 weeks x 7 days) ---
 const heatmap = Array.from({ length: 12 }, (_, week) =>
-  Array.from({ length: 7 }, (_, day) => {
+  Array.from({ length: 7 }, () => {
     const val = Math.random();
     if (week < 2) return val > 0.7 ? 2 : val > 0.4 ? 1 : 0;
     if (week < 6) return val > 0.5 ? 3 : val > 0.3 ? 2 : val > 0.15 ? 1 : 0;
@@ -63,7 +63,7 @@ export default function Page5() {
           Integration Activity
         </p>
         <h1 className="text-3xl font-bold leading-snug" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
-          Aaptor tracks Rahul's activity{" "}
+          Aaptor tracks Rahul&apos;s activity{" "}
           <span style={{ color: "var(--accent-mint)" }}>across platforms</span> automatically
         </h1>
       </motion.div>
@@ -241,7 +241,7 @@ export default function Page5() {
             className="rounded-xl px-4 py-3 text-sm"
             style={{ background: "rgba(217,119,6,0.08)", border: "1px solid rgba(217,119,6,0.2)", color: "#92400e" }}
           >
-            🏆 Recognized by manager: "Great work on the PR review"
+            🏆 Recognized by manager: &quot;Great work on the PR review&quot;
           </div>
         </motion.div>
       </div>

@@ -119,7 +119,7 @@ export default function Page7() {
           <Zap size={18} style={{ color: "var(--accent-glow)" }} />
           <p className="text-base font-semibold" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-secondary)" }}>
             Aaptor matched{" "}
-            <span style={{ color: "var(--accent-mint)" }}>8 developers</span> from TechCorp's{" "}
+            <span style={{ color: "var(--accent-mint)" }}>8 developers</span> from TechCorp&apos;s{" "}
             <span style={{ color: "var(--text-primary)" }}>1,200 employees</span> in{" "}
             <span style={{ color: "var(--accent-glow)" }}>0.3 seconds</span>
           </p>
@@ -195,7 +195,7 @@ export default function Page7() {
         style={{ background: "var(--bg-card)", border: "1px solid rgba(22,163,74,0.2)" }}
       >
         <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)", fontFamily: "Syne, sans-serif" }}>
-          Rahul's Skill Match Breakdown
+          Rahul&apos;s Skill Match Breakdown
         </p>
         <div className="flex flex-col gap-2">
           {rahulSkillMatch.map((item) => (

@@ -55,7 +55,7 @@ export default function Page1() {
       >
         <AlertTriangle size={15} className="flex-shrink-0" style={{ color: "#ef4444" }} />
         <p className="text-sm" style={{ color: "#b91c1c" }}>
-          This employee's capabilities are unverified. No benchmark data available.
+          This employee&apos;s capabilities are unverified. No benchmark data available.
         </p>
       </motion.div>
 

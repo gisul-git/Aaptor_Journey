@@ -248,7 +248,6 @@ export default function Page4() {
             style={{
               background: "rgba(13,122,69,0.06)",
               border: "1px solid rgba(13,122,69,0.2)",
-              border: "1px solid rgba(45,204,112,0.2)",
             }}
           >
             <div className="flex items-center gap-2">
@@ -263,7 +262,7 @@ export default function Page4() {
               </span>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              Based on your pace, you'll complete{" "}
+              Based on your pace, you&apos;ll complete{" "}
               <span style={{ color: "var(--accent-mint)" }}>DSA Mastery in ~3 weeks</span>.
               Recommended: increase daily practice to{" "}
               <span style={{ color: "#fbbf24" }}>45 min</span>.
