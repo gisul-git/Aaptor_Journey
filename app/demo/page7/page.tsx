@@ -8,7 +8,7 @@ import {
   ResponsiveContainer, AreaChart, Area, ReferenceLine, Legend,
 } from "recharts";
 
-// ─── Data ────────────────────────────────────────────────────────────────────
+// ─── Data ──────────────────────────────────────────────────────────────────
 
 const skillGrowth = [
   { skill: "React",         before: 65, after: 92 },
