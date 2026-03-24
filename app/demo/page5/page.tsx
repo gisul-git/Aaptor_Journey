@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GitCommit, BookOpen, Link2, MessageSquare, CheckCircle2, ExternalLink } from "lucide-react";
+import { GitCommit, BookOpen, Link2, MessageSquare, CheckCircle2, ExternalLink, Award } from "lucide-react";
 
 // --- GitHub heatmap data (12 weeks x 7 days) ---
 const heatmap = Array.from({ length: 12 }, (_, week) =>
@@ -238,10 +238,11 @@ export default function Page5() {
           </div>
 
           <div
-            className="rounded-xl px-4 py-3 text-sm"
+            className="rounded-xl px-4 py-3 text-sm flex items-start gap-2"
             style={{ background: "rgba(217,119,6,0.08)", border: "1px solid rgba(217,119,6,0.2)", color: "#92400e" }}
           >
-            🏆 Recognized by manager: &quot;Great work on the PR review&quot;
+            <Award size={14} style={{ color: "#d97706", flexShrink: 0, marginTop: 2 }} />
+            <span>Recognized by manager: &quot;Great work on the PR review&quot;</span>
           </div>
         </motion.div>
       </div>

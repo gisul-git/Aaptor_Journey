@@ -242,7 +242,7 @@ export default function Page3() {
               <ReferenceLine x="Month 3" stroke="rgba(13,122,69,0.4)" strokeDasharray="4 3"
                 label={{ value: "DSA Path ✓", position: "top", fill: "#0d7a45", fontSize: 10 }} />
               <ReferenceLine x="Month 5" stroke="rgba(13,122,69,0.4)" strokeDasharray="4 3"
-                label={{ value: "GitHub streak 🔥", position: "top", fill: "#0d7a45", fontSize: 10 }} />
+                label={{ value: "GitHub Streak ✓", position: "top", fill: "#0d7a45", fontSize: 10 }} />
               <Line type="monotone" dataKey="score" stroke="#0d7a45" strokeWidth={2.5}
                 dot={<CustomDot />} activeDot={{ r: 6, fill: "#0d7a45" }} />
             </LineChart>

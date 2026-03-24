@@ -81,11 +81,12 @@ export const careerPathData = [
 ];
 
 export const pages = [
-  { id: 1, title: "Welcome", path: "/demo/page1" },
-  { id: 2, title: "Performance", path: "/demo/page2" },
-  { id: 3, title: "Skills", path: "/demo/page3" },
-  { id: 4, title: "Goals", path: "/demo/page4" },
-  { id: 5, title: "Feedback", path: "/demo/page5" },
-  { id: 6, title: "Compensation", path: "/demo/page6" },
-  { id: 7, title: "Career Path", path: "/demo/page7" },
+  { id: 1, title: "Before Aaptor",      path: "/demo/page1" },
+  { id: 2, title: "Assessment",         path: "/demo/page2" },
+  { id: 3, title: "Aaptor Score",       path: "/demo/page3" },
+  { id: 4, title: "Learning Path",      path: "/demo/page4" },
+  { id: 5, title: "Integrations",       path: "/demo/page5" },
+  { id: 6, title: "After Aaptor",       path: "/demo/page6" },
+  { id: 7, title: "Performance Dashboard", path: "/demo/page7" },
+  { id: 8, title: "Project Match",      path: "/demo/page8" },
 ];

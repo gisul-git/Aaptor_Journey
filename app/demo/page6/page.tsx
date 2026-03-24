@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Briefcase, MapPin, Clock, Award, BookOpen, ClipboardCheck, TrendingUp, ArrowUp } from "lucide-react";
+import { Briefcase, MapPin, Clock, Award, BookOpen, ClipboardCheck, TrendingUp, ArrowUp, Cloud, Code2 } from "lucide-react";
 
 const skills = [
   { skill: "React",         before: 65, after: 92 },
@@ -14,8 +14,8 @@ const skills = [
 ];
 
 const certs = [
-  { label: "AWS Cloud Practitioner", icon: "☁️" },
-  { label: "Meta Frontend Developer", icon: "⚛️" },
+  { label: "AWS Cloud Practitioner", icon: <Cloud size={14} /> },
+  { label: "Meta Frontend Developer", icon: <Code2 size={14} /> },
 ];
 
 function useCountUp(target: number, duration = 1200, delay = 0) {
